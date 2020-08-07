@@ -1,0 +1,86 @@
+.buttonbar
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 12px;
+}
+.newpost, .piblisher
+{
+width: 50%;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+}
+
+.search
+{
+    padding: 20px;
+    text-align: center;
+}
+/* .search input
+{
+    height: 40px;
+    width: 350px;
+} */
+.wrapper
+{
+    border: 1px solid gray;
+    margin: auto;
+    width: 40%;
+    height: 40px;
+}
+.wrapper span
+{
+    /* border-right: 1px solid gray; */
+    height: 85%;
+}
+.icon, .clearicon
+{
+    width: 15%;
+    display: inline-block;
+}
+.searchbox
+{
+    width: 70%;
+    display: inline-block;
+
+}
+.searchbox input
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.inputtable
+{
+        margin: auto;
+        width: 60%;
+        margin-top: 40px;
+}
+td
+{
+    padding-top: 20px;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.output
+{
+    list-style-type: none;
+    margin-top: 25px;
+    margin: auto;
+    width: 50%;
+}
+.publisherContainer
+{
+    border: solid 2px gray;
+    padding: 25px;
+    
+}
